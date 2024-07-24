@@ -1,0 +1,33 @@
+.cart-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    
+}
+
+.like {
+    color: grey;
+}
+
+.like.liked {
+    color: red;
+}
